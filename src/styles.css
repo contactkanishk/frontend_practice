@@ -1,0 +1,69 @@
+/* Global Reset */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for Forms */
+.container {
+    width: 350px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Dashboard Styles */
+.dashboard {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Links Section */
+.links {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.link {
+    color: #007bff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
