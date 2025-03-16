@@ -8,7 +8,7 @@ import Signup from "./pages/Signup";
 import ForgotPassword from "./pages/ForgotPassword"; 
 import ResetPassword from "./pages/ResetPassword";
 
-const App = () => {
+function App() {
     return (
         <Router>
             <Routes>

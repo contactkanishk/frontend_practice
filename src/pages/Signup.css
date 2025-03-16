@@ -1,0 +1,58 @@
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.registration-input {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration-termsAndCondition {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.terms-container {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Adjust spacing between checkbox and text */
+}
+
+.two-column {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+.two-column .input {
+    flex: 1;
+    width: 100%; /* Ensure full width within the row */
+}
+
+/* Ensure the form container is wide enough */
+.registration-container {
+    width: 90%; /* Increase width to utilize space */
+    max-width: 1100px; /* Allow a wider form */
+    margin: 20px auto; /* Center the form */
+    background-color: #fff; /* Optional: Improve visibility */
+}
+
+/* Make fields stack in one column on small screens */
+@media (max-width: 768px) {
+    .two-column {
+        flex-direction: column;
+    }
+}
+
+
+/* Make the form responsive */
+
